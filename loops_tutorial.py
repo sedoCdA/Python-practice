@@ -9,9 +9,7 @@ There are two main types of loops in Python:
 2. while loops - repeat while a condition is true
 """
 
-# ============================================================================
 # PART 1: FOR LOOPS
-# ============================================================================
 
 print("=" * 60)
 print("PART 1: FOR LOOPS")
