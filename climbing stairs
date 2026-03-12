@@ -1,0 +1,12 @@
+class Solution:
+    def fib(self, n):
+        if n <= 2: 
+            return n
+        l = [1, 2] # Starting points for 1 step and 2 steps
+        for i in range(2, n):
+            # Sum the previous two numbers (The actual Fib logic!)
+            l.append(l[i-1] + l[i-2])
+        return l[-1] # Just return the last one
+        
+    def climbStairs(self, n: int) -> int:
+        return self.fib(n)
